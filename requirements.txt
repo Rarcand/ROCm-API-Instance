@@ -1,0 +1,20 @@
+# Web Service (API)
+fastapi
+uvicorn[standard]
+pydantic
+
+# Machine Learning Core (already in your base image, but good to include)
+torch
+torchvision
+torchaudio
+transformers
+datasets
+
+# Development and Notebooks
+jupyterlab
+ipykernel
+pandas
+numpy
+
+# HTTP Client for testing
+requests
